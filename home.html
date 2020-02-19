@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background-color: purple;
+				font-family: Verdana;
+			}
+
+			.container {
+				width: 700px;
+				background-color: #fff;
+				border: 10px solid #000;
+				margin-left: auto;
+				margin-right: auto;
+				height: 700px;
+			}
+
+			.content {
+				width: 660px;
+				padding: 20px;
+			}
+
+			p {	
+				line-height: 1.5em;
+				font-size: 14pt;
+			}
+			
+			img {
+				border: 5px solid black;
+				float: left;
+				margin-right: 20px;
+				margin-bottom: 5px;
+			}
+			
+			ul {
+				background-color: grey;  
+				list-style-type: none;
+				margin: 0px;
+				overflow: hidden; 
+				padding: 0px;
+			}
+			
+			li {
+				float: left; 
+				width: 175px; 
+			}
+			
+			li a {
+				border: 1px solid black;
+				border-bottom: 2.5px solid black;
+				color: white; 
+				display: block;  
+				padding: 14px 16px;
+				text-align: center;
+				text-decoration: none;                                    
+			}
+
+			li a:hover:not(.current) {
+				background-color: #111;
+			} 
+			
+			.current {
+				background-color: pink; 
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+
+	<div class="container">	
+			<ul>
+			  <li><a class="current" href="home.html">Home</a></li>
+			  <li><a href="news.html">News</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			  <li><a href="about.html">About</a></li>
+			</ul>
+		<div class="content">
+		
+			<h1>Home</h1>
+			
+			<img src="https://placekitten.com/200/300">
+			
+			<p>[meow] Welcome to my website! [meow]</p>
+		</div>
+	</div>
+
+	</body>
+</html>
